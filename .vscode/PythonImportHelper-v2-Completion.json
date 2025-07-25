@@ -1,0 +1,216 @@
+[
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployeeRequestModel",
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "isExtraImport": true,
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteEmployee",
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "isExtraImport": true,
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDesignationEnum",
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "isExtraImport": true,
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneRequest",
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "isExtraImport": true,
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployee",
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "isExtraImport": true,
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "cluster",
+        "kind": 5,
+        "importPath": "db.database",
+        "description": "db.database",
+        "peekOfCode": "cluster = MongoClient(\"mongodb://localhost:27017/\")\ndb = cluster.employee_mgmt",
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "db.database",
+        "description": "db.database",
+        "peekOfCode": "db = cluster.employee_mgmt",
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDesignationEnum",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class EmployeeDesignationEnum(Enum):\n    admin = \"ADMIN\"\n    manager = \"MANAGER\"\n    hr = \"HR\"\n    employee = \"EMPLOYEE\"\nclass AddEmployee(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployee",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class AddEmployee(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str\n    designation:EmployeeDesignationEnum \n    is_present:bool = False\nclass AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployeeRequestModel",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    mobileNumber:str\n    emailId:str\n    employeeMentType:str\n    isPresent:bool = False\nclass UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  ",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployee",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  \nclass FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneRequest",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteEmployee",
+        "kind": 6,
+        "importPath": "models.employee_model",
+        "description": "models.employee_model",
+        "peekOfCode": "class DeleteEmployee(BaseModel):\n    employeeId:str",
+        "detail": "models.employee_model",
+        "documentation": {}
+    },
+    {
+        "label": "AddUser",
+        "kind": 6,
+        "importPath": "models.user_model",
+        "description": "models.user_model",
+        "peekOfCode": "class AddUser(BaseModel):\n    employee_id = str\n    logged_in:bool\n    email_id:str\n    password:str",
+        "detail": "models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "addEmployee",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def addEmployee(request: AddEmployeeRequestModel):\n    employeeCollection = db.employees\n    data = {}\n    tempEmpObj = {\n        \"first_name\": request.firstName,\n        \"last_name\": request.lastName,\n        \"mobile_number\": request.mobileNumber,\n        \"email_id\": request.emailId,\n        \"is_present\": request.isPresent,\n    }",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "findEmployee",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def findEmployee(request: FindOneRequest):\n    employeeCollection = db.employees\n    data = employeeCollection.find_one({\"email_id\": request.emailId})\n    tempFindEmp = {\n        \"firstName\": data.get(\"first_name\"),\n        \"lastName\": data.get(\"last_name\"),\n        \"mobileNumber\": data.get(\"mobile_number\"),\n        \"emailId\": data.get(\"email_id\"),\n        \"employeeMentType\":data.get(\"designation\"),\n        \"isPresent\":data.get(\"is_present\"),",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployee",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def UpdateEmployee(request:UpdateEmployee):\n    employeeCollection = db.employees\n    data =  employeeCollection.update_one({\"email_id\":request.emailId},{\"$set\":{\"first_name\":request.firstName}})\n    if data.matched_count != 0:\n        return{\"data\":\"Updated sucessfully\"}\n    else:\n        return{\"data\":\"Not Updated\"}\n@app.delete(\"/deleteemployee\")\ndef deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "deleteEmployee",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees\n    data = employeeCollection.delete_one({\"_id\":request.employeeId})\n    if data.deleted_count != 0:\n        return {\"data\":\"Deleted\"}\n    else:\n        return {\"data\":\"Not Deleted\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"main:app\",host=\"127.0.0.1\", port = 8000)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\n@app.post(\"/addemployee\")\ndef addEmployee(request: AddEmployeeRequestModel):\n    employeeCollection = db.employees\n    data = {}\n    tempEmpObj = {\n        \"first_name\": request.firstName,\n        \"last_name\": request.lastName,\n        \"mobile_number\": request.mobileNumber,\n        \"email_id\": request.emailId,",
+        "detail": "main",
+        "documentation": {}
+    }
+]
