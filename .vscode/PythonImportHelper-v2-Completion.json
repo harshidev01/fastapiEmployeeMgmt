@@ -40,51 +40,51 @@
         "documentation": {}
     },
     {
-        "label": "AddEmployeeRequestModel",
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "isExtraImport": true,
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
-        "label": "DeleteEmployee",
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "isExtraImport": true,
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
-        "label": "EmployeeDesignationEnum",
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "isExtraImport": true,
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
-        "label": "FindOneRequest",
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "isExtraImport": true,
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
-        "label": "UpdateEmployee",
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "isExtraImport": true,
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
         "label": "db",
         "importPath": "db.database",
         "description": "db.database",
         "isExtraImport": true,
         "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployeeRequestModel",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
+        "isExtraImport": true,
+        "detail": "models.employeeRequestModels",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteEmployee",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
+        "isExtraImport": true,
+        "detail": "models.employeeRequestModels",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneRequest",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
+        "isExtraImport": true,
+        "detail": "models.employeeRequestModels",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployee",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
+        "isExtraImport": true,
+        "detail": "models.employeeRequestModels",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDesignationEnum",
+        "importPath": "models.employeeDbModels",
+        "description": "models.employeeDbModels",
+        "isExtraImport": true,
+        "detail": "models.employeeDbModels",
         "documentation": {}
     },
     {
@@ -108,64 +108,55 @@
     {
         "label": "EmployeeDesignationEnum",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "peekOfCode": "class EmployeeDesignationEnum(Enum):\n    admin = \"ADMIN\"\n    manager = \"MANAGER\"\n    hr = \"HR\"\n    employee = \"EMPLOYEE\"\nclass AddEmployee(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str",
-        "detail": "models.employee_model",
+        "importPath": "models.employeeDbModels",
+        "description": "models.employeeDbModels",
+        "peekOfCode": "class EmployeeDesignationEnum(Enum):\n    admin = \"ADMIN\"\n    manager = \"MANAGER\"\n    hr = \"HR\"\n    employee = \"EMPLOYEE\"\nclass EmployeeDbModel(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str",
+        "detail": "models.employeeDbModels",
         "documentation": {}
     },
     {
-        "label": "AddEmployee",
+        "label": "EmployeeDbModel",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
-        "peekOfCode": "class AddEmployee(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str\n    designation:EmployeeDesignationEnum \n    is_present:bool = False\nclass AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str",
-        "detail": "models.employee_model",
+        "importPath": "models.employeeDbModels",
+        "description": "models.employeeDbModels",
+        "peekOfCode": "class EmployeeDbModel(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str\n    designation:EmployeeDesignationEnum \n    is_present:bool = False",
+        "detail": "models.employeeDbModels",
         "documentation": {}
     },
     {
         "label": "AddEmployeeRequestModel",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
         "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    mobileNumber:str\n    emailId:str\n    employeeMentType:str\n    isPresent:bool = False\nclass UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  ",
-        "detail": "models.employee_model",
+        "detail": "models.employeeRequestModels",
         "documentation": {}
     },
     {
         "label": "UpdateEmployee",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
         "peekOfCode": "class UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  \nclass FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employee_model",
+        "detail": "models.employeeRequestModels",
         "documentation": {}
     },
     {
         "label": "FindOneRequest",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
         "peekOfCode": "class FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employee_model",
+        "detail": "models.employeeRequestModels",
         "documentation": {}
     },
     {
         "label": "DeleteEmployee",
         "kind": 6,
-        "importPath": "models.employee_model",
-        "description": "models.employee_model",
+        "importPath": "models.employeeRequestModels",
+        "description": "models.employeeRequestModels",
         "peekOfCode": "class DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employee_model",
-        "documentation": {}
-    },
-    {
-        "label": "AddUser",
-        "kind": 6,
-        "importPath": "models.user_model",
-        "description": "models.user_model",
-        "peekOfCode": "class AddUser(BaseModel):\n    employee_id = str\n    logged_in:bool\n    email_id:str\n    password:str",
-        "detail": "models.user_model",
+        "detail": "models.employeeRequestModels",
         "documentation": {}
     },
     {

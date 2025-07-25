@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from models.employee_model import (AddEmployeeRequestModel, DeleteEmployee,
-    EmployeeDesignationEnum, FindOneRequest, UpdateEmployee)
+
 from db.database import db
+from models.employeeRequestModels import AddEmployeeRequestModel, DeleteEmployee, FindOneRequest,UpdateEmployee
+from models.employeeDbModels import EmployeeDesignationEnum
 
 app = FastAPI()
 
