@@ -200,7 +200,16 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees\n    data = employeeCollection.delete_one({\"_id\":request.employeeId})\n    if data.deleted_count != 0:\n        return {\"data\":\"Deleted\"}\n    else:\n        return {\"data\":\"Not Deleted\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"main:app\",host=\"127.0.0.1\", port = 8000)",
+        "peekOfCode": "def deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees\n    data = employeeCollection.delete_one({\"_id\":request.employeeId})\n    if data.deleted_count != 0:\n        return {\"data\":\"Deleted\"}\n    else:\n        return {\"data\":\"Not Deleted\"}\n@app.get(\"/getallemployees\")\ndef getAllEmployees():\n    employeeCollection = db.employees",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "getAllEmployees",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def getAllEmployees():\n    employeeCollection = db.employees\n    allempl = employeeCollection.find()\n    temp = []\n    for empl in allempl:\n        tempGetObj = {\n            \"firstName\": empl.get(\"first_name\"),\n            \"lastName\":empl.get(\"last_name\"),\n            \"mobileNumber\":empl.get(\"mobile_number\"),\n            \"emailId\":empl.get(\"email_id\"),",
         "detail": "main",
         "documentation": {}
     },

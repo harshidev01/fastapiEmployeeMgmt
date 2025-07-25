@@ -73,6 +73,24 @@ def deleteEmployee(request:DeleteEmployee):
     else:
         return {"data":"Not Deleted"}
     
+@app.get("/getallemployees")
+def getAllEmployees():
+    employeeCollection = db.employees
+    allempl = employeeCollection.find()
+    
+    temp = []
+    for empl in allempl:
+        tempGetObj = {
+            "firstName": empl.get("first_name"),
+            "lastName":empl.get("last_name"),
+            "mobileNumber":empl.get("mobile_number"),
+            "emailId":empl.get("email_id"),
+            "employeeMentType":empl.get("designation"),
+            "isPresent":empl.get("is_present")
+        }
+        temp.append(tempGetObj)
+    return {"data":temp}   
+    
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app",host="127.0.0.1", port = 8000)
