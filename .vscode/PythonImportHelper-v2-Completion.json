@@ -1,34 +1,18 @@
 [
     {
-        "label": "MongoClient",
-        "importPath": "pymongo",
-        "description": "pymongo",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "pymongo",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -40,168 +24,625 @@
         "documentation": {}
     },
     {
-        "label": "db",
-        "importPath": "db.database",
-        "description": "db.database",
+        "label": "AddDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
         "isExtraImport": true,
-        "detail": "db.database",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDesignationRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDesignationRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "AddDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDesignationRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDepartmentRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDesignationRequestModel",
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DepartmentServices",
+        "importPath": "services.DepartmentServices",
+        "description": "services.DepartmentServices",
+        "isExtraImport": true,
+        "detail": "services.DepartmentServices",
         "documentation": {}
     },
     {
         "label": "AddEmployeeRequestModel",
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
         "isExtraImport": true,
-        "detail": "models.employeeRequestModels",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "DeleteEmployee",
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
+        "label": "DeleteEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
         "isExtraImport": true,
-        "detail": "models.employeeRequestModels",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "FindOneRequest",
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
+        "label": "FindEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
         "isExtraImport": true,
-        "detail": "models.employeeRequestModels",
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "FindEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeServices",
+        "importPath": "services.EmployeeServices",
+        "description": "services.EmployeeServices",
+        "isExtraImport": true,
+        "detail": "services.EmployeeServices",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeMgmtDB",
+        "importPath": "db.MongoDb",
+        "description": "db.MongoDb",
+        "isExtraImport": true,
+        "detail": "db.MongoDb",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeMgmtDB",
+        "importPath": "db.MongoDb",
+        "description": "db.MongoDb",
+        "isExtraImport": true,
+        "detail": "db.MongoDb",
+        "documentation": {}
+    },
+    {
+        "label": "generateRandomId",
+        "importPath": "utils.AppUtils",
+        "description": "utils.AppUtils",
+        "isExtraImport": true,
+        "detail": "utils.AppUtils",
+        "documentation": {}
+    },
+    {
+        "label": "generateRandomId",
+        "importPath": "utils.AppUtils",
+        "description": "utils.AppUtils",
+        "isExtraImport": true,
+        "detail": "utils.AppUtils",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDesingationEnum",
+        "importPath": "models.dbmodels.EmployeeDBModel",
+        "description": "models.dbmodels.EmployeeDBModel",
+        "isExtraImport": true,
+        "detail": "models.dbmodels.EmployeeDBModel",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "depRouter",
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "isExtraImport": true,
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "empRouter",
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "isExtraImport": true,
+        "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "AddDepartment",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def AddDepartment(request:AddDepartmentRequestModel):\n    response=  depServices.AddDepartment(request)\n    return response\n@depRouter.post(\"/adddesignation\")\ndef AddDesignation(request:AddDepartmentRequestModel):\n    response = depServices.AddDesgination(request)\n    return response\n@depRouter.get(\"/alldepartments\")\ndef AllDepartments():\n    response = depServices.AllDepartments()",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "AddDesignation",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def AddDesignation(request:AddDepartmentRequestModel):\n    response = depServices.AddDesgination(request)\n    return response\n@depRouter.get(\"/alldepartments\")\ndef AllDepartments():\n    response = depServices.AllDepartments()\n    return response\n@depRouter.get(\"/alldesignations\")\ndef AllDesignations():\n    response = depServices.AllDesignations()",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "AllDepartments",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def AllDepartments():\n    response = depServices.AllDepartments()\n    return response\n@depRouter.get(\"/alldesignations\")\ndef AllDesignations():\n    response = depServices.AllDesignations()\n    return response\n@depRouter.post(\"/updatedepartment\")\ndef UpdateDepartment(request:UpdateDepartmentRequestModel):\n    response = depServices.UpdateDepartment(request)",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "AllDesignations",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def AllDesignations():\n    response = depServices.AllDesignations()\n    return response\n@depRouter.post(\"/updatedepartment\")\ndef UpdateDepartment(request:UpdateDepartmentRequestModel):\n    response = depServices.UpdateDepartment(request)\n    return response\n@depRouter.post(\"/updatedesignation\")\ndef UpdateDesignation(request:UpdateDesignationRequestModel):\n    response = depServices.UpdateDesignation(request)",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDepartment",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def UpdateDepartment(request:UpdateDepartmentRequestModel):\n    response = depServices.UpdateDepartment(request)\n    return response\n@depRouter.post(\"/updatedesignation\")\ndef UpdateDesignation(request:UpdateDesignationRequestModel):\n    response = depServices.UpdateDesignation(request)\n    return response\n@depRouter.delete(\"/deletedepartment\")\ndef DeleteDepartment(request:DeleteDepartmentRequestModel):\n    response = depServices.DeleteDepartment(request)",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDesignation",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def UpdateDesignation(request:UpdateDesignationRequestModel):\n    response = depServices.UpdateDesignation(request)\n    return response\n@depRouter.delete(\"/deletedepartment\")\ndef DeleteDepartment(request:DeleteDepartmentRequestModel):\n    response = depServices.DeleteDepartment(request)\n    return response\n@depRouter.delete(\"/deletedesignation\")\ndef DeleteDepartment(request:DeleteDesignationRequestModel):\n    response = depServices.DeleteDesignation(request)",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDepartment",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def DeleteDepartment(request:DeleteDepartmentRequestModel):\n    response = depServices.DeleteDepartment(request)\n    return response\n@depRouter.delete(\"/deletedesignation\")\ndef DeleteDepartment(request:DeleteDesignationRequestModel):\n    response = depServices.DeleteDesignation(request)\n    return response",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDepartment",
+        "kind": 2,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "def DeleteDepartment(request:DeleteDesignationRequestModel):\n    response = depServices.DeleteDesignation(request)\n    return response",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "depRouter",
+        "kind": 5,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "depRouter = APIRouter()\ndepServices = DepartmentServices()\n@depRouter.post(\"/adddepartment\")\ndef AddDepartment(request:AddDepartmentRequestModel):\n    response=  depServices.AddDepartment(request)\n    return response\n@depRouter.post(\"/adddesignation\")\ndef AddDesignation(request:AddDepartmentRequestModel):\n    response = depServices.AddDesgination(request)\n    return response",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "depServices",
+        "kind": 5,
+        "importPath": "controllers.DepartmentController",
+        "description": "controllers.DepartmentController",
+        "peekOfCode": "depServices = DepartmentServices()\n@depRouter.post(\"/adddepartment\")\ndef AddDepartment(request:AddDepartmentRequestModel):\n    response=  depServices.AddDepartment(request)\n    return response\n@depRouter.post(\"/adddesignation\")\ndef AddDesignation(request:AddDepartmentRequestModel):\n    response = depServices.AddDesgination(request)\n    return response\n@depRouter.get(\"/alldepartments\")",
+        "detail": "controllers.DepartmentController",
+        "documentation": {}
+    },
+    {
+        "label": "AddEmployee",
+        "kind": 2,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "def AddEmployee(request:AddEmployeeRequestModel):\n    response = empServices.AddEmployee(request)\n    return response\n@empRouter.get(\"/allemployees\")\ndef AllEmpl():\n    response = empServices.AllEmpl()\n    return response\n@empRouter.post(\"/updateemployee\")\ndef UpdateEmployee(request:UpdateEmployeeRequestModel):\n    response = empServices.UpdateEmployee(request)",
+        "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "AllEmpl",
+        "kind": 2,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "def AllEmpl():\n    response = empServices.AllEmpl()\n    return response\n@empRouter.post(\"/updateemployee\")\ndef UpdateEmployee(request:UpdateEmployeeRequestModel):\n    response = empServices.UpdateEmployee(request)\n    return response\n@empRouter.post(\"/findemployee\")\ndef FindEmployee(request:FindEmployeeRequestModel):\n    response = empServices.FindEmployee(request)",
+        "detail": "controllers.EmployeeController",
         "documentation": {}
     },
     {
         "label": "UpdateEmployee",
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
-        "isExtraImport": true,
-        "detail": "models.employeeRequestModels",
+        "kind": 2,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "def UpdateEmployee(request:UpdateEmployeeRequestModel):\n    response = empServices.UpdateEmployee(request)\n    return response\n@empRouter.post(\"/findemployee\")\ndef FindEmployee(request:FindEmployeeRequestModel):\n    response = empServices.FindEmployee(request)\n    return response\n@empRouter.delete(\"/deleteemployee\")\ndef DeletEmployee(request:DeleteEmployeeRequestModel):\n    response = empServices.DeleteEmployee(request)",
+        "detail": "controllers.EmployeeController",
         "documentation": {}
     },
     {
-        "label": "EmployeeDesignationEnum",
-        "importPath": "models.employeeDbModels",
-        "description": "models.employeeDbModels",
-        "isExtraImport": true,
-        "detail": "models.employeeDbModels",
+        "label": "FindEmployee",
+        "kind": 2,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "def FindEmployee(request:FindEmployeeRequestModel):\n    response = empServices.FindEmployee(request)\n    return response\n@empRouter.delete(\"/deleteemployee\")\ndef DeletEmployee(request:DeleteEmployeeRequestModel):\n    response = empServices.DeleteEmployee(request)\n    return response",
+        "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "DeletEmployee",
+        "kind": 2,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "def DeletEmployee(request:DeleteEmployeeRequestModel):\n    response = empServices.DeleteEmployee(request)\n    return response",
+        "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "empRouter",
+        "kind": 5,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "empRouter = APIRouter()\nempServices = EmployeeServices()\n@empRouter.post(\"/addemployee\")\ndef AddEmployee(request:AddEmployeeRequestModel):\n    response = empServices.AddEmployee(request)\n    return response\n@empRouter.get(\"/allemployees\")\ndef AllEmpl():\n    response = empServices.AllEmpl()\n    return response",
+        "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "empServices",
+        "kind": 5,
+        "importPath": "controllers.EmployeeController",
+        "description": "controllers.EmployeeController",
+        "peekOfCode": "empServices = EmployeeServices()\n@empRouter.post(\"/addemployee\")\ndef AddEmployee(request:AddEmployeeRequestModel):\n    response = empServices.AddEmployee(request)\n    return response\n@empRouter.get(\"/allemployees\")\ndef AllEmpl():\n    response = empServices.AllEmpl()\n    return response\n@empRouter.post(\"/updateemployee\")",
+        "detail": "controllers.EmployeeController",
         "documentation": {}
     },
     {
         "label": "cluster",
         "kind": 5,
-        "importPath": "db.database",
-        "description": "db.database",
-        "peekOfCode": "cluster = MongoClient(\"mongodb://localhost:27017/\")\ndb = cluster.employee_mgmt",
-        "detail": "db.database",
+        "importPath": "db.MongoDb",
+        "description": "db.MongoDb",
+        "peekOfCode": "cluster = MongoClient(\"mongodb://localhost:27017/\")\nEmployeeMgmtDB = cluster.EmployeeMgmt",
+        "detail": "db.MongoDb",
         "documentation": {}
     },
     {
-        "label": "db",
+        "label": "EmployeeMgmtDB",
         "kind": 5,
-        "importPath": "db.database",
-        "description": "db.database",
-        "peekOfCode": "db = cluster.employee_mgmt",
-        "detail": "db.database",
+        "importPath": "db.MongoDb",
+        "description": "db.MongoDb",
+        "peekOfCode": "EmployeeMgmtDB = cluster.EmployeeMgmt",
+        "detail": "db.MongoDb",
         "documentation": {}
     },
     {
-        "label": "EmployeeDesignationEnum",
+        "label": "DespartmentDbModel",
         "kind": 6,
-        "importPath": "models.employeeDbModels",
-        "description": "models.employeeDbModels",
-        "peekOfCode": "class EmployeeDesignationEnum(Enum):\n    admin = \"ADMIN\"\n    manager = \"MANAGER\"\n    hr = \"HR\"\n    employee = \"EMPLOYEE\"\nclass EmployeeDbModel(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str",
-        "detail": "models.employeeDbModels",
+        "importPath": "models.dbmodels.DepartmentDbModel",
+        "description": "models.dbmodels.DepartmentDbModel",
+        "peekOfCode": "class DespartmentDbModel(BaseModel):\n    id:str\n    departmentName:str",
+        "detail": "models.dbmodels.DepartmentDbModel",
+        "documentation": {}
+    },
+    {
+        "label": "DesignatioNDbModel",
+        "kind": 6,
+        "importPath": "models.dbmodels.DesignationDBModel",
+        "description": "models.dbmodels.DesignationDBModel",
+        "peekOfCode": "class DesignatioNDbModel(BaseModel):\n    id:str\n    designationName:str",
+        "detail": "models.dbmodels.DesignationDBModel",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDesingationEnum",
+        "kind": 6,
+        "importPath": "models.dbmodels.EmployeeDBModel",
+        "description": "models.dbmodels.EmployeeDBModel",
+        "peekOfCode": "class EmployeeDesingationEnum(Enum):\n    HR = \"HR\"\n    EMPLOYEE = \"EMPLOYEE\"\n    ADMIN = \"ADMIN\"\n    MANAGER = \"MANAGER\"\nclass EmployeeDbModel(BaseModel):\n    firstName: str\n    lastName: str\n    emailId: str\n    mobileNumber: str",
+        "detail": "models.dbmodels.EmployeeDBModel",
         "documentation": {}
     },
     {
         "label": "EmployeeDbModel",
         "kind": 6,
-        "importPath": "models.employeeDbModels",
-        "description": "models.employeeDbModels",
-        "peekOfCode": "class EmployeeDbModel(BaseModel):\n    first_name:str\n    last_name:str\n    mobile_number:str\n    email_id:str\n    designation:EmployeeDesignationEnum \n    is_present:bool = False",
-        "detail": "models.employeeDbModels",
+        "importPath": "models.dbmodels.EmployeeDBModel",
+        "description": "models.dbmodels.EmployeeDBModel",
+        "peekOfCode": "class EmployeeDbModel(BaseModel):\n    firstName: str\n    lastName: str\n    emailId: str\n    mobileNumber: str\n    employeeId: str\n    designation: EmployeeDesingationEnum\n    isPresent: bool\n    id: str\n    designationId: str",
+        "detail": "models.dbmodels.EmployeeDBModel",
+        "documentation": {}
+    },
+    {
+        "label": "UserDBModel",
+        "kind": 6,
+        "importPath": "models.dbmodels.UserDbModel",
+        "description": "models.dbmodels.UserDbModel",
+        "peekOfCode": "class UserDBModel(BaseModel):\n    emailId:str\n    password:str\n    otp:int\n    loggedIn:bool\n    employeeId:str",
+        "detail": "models.dbmodels.UserDbModel",
+        "documentation": {}
+    },
+    {
+        "label": "AddDepartmentRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class AddDepartmentRequestModel(BaseModel):\n    name: str\nclass AddDesignationRequestModel(BaseModel):\n    name:str\nclass UpdateDepartmentRequestModel(BaseModel):\n    id :str\n    departmentName:str\nclass UpdateDesignationRequestModel(BaseModel):\n    id :str\n    designationName:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "AddDesignationRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class AddDesignationRequestModel(BaseModel):\n    name:str\nclass UpdateDepartmentRequestModel(BaseModel):\n    id :str\n    departmentName:str\nclass UpdateDesignationRequestModel(BaseModel):\n    id :str\n    designationName:str\nclass DeleteDepartmentRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDepartmentRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class UpdateDepartmentRequestModel(BaseModel):\n    id :str\n    departmentName:str\nclass UpdateDesignationRequestModel(BaseModel):\n    id :str\n    designationName:str\nclass DeleteDepartmentRequestModel(BaseModel):\n    id:str\nclass DeleteDesignationRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateDesignationRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class UpdateDesignationRequestModel(BaseModel):\n    id :str\n    designationName:str\nclass DeleteDepartmentRequestModel(BaseModel):\n    id:str\nclass DeleteDesignationRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDepartmentRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class DeleteDepartmentRequestModel(BaseModel):\n    id:str\nclass DeleteDesignationRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteDesignationRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.DepartmentRequestModel",
+        "description": "models.requestmodels.DepartmentRequestModel",
+        "peekOfCode": "class DeleteDesignationRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.DepartmentRequestModel",
         "documentation": {}
     },
     {
         "label": "AddEmployeeRequestModel",
         "kind": 6,
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
-        "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    mobileNumber:str\n    emailId:str\n    employeeMentType:str\n    isPresent:bool = False\nclass UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  ",
-        "detail": "models.employeeRequestModels",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    emailId:str\n    mobileNumber:str\n    employeeId:str\n    designation: str\n    isPresent:bool = False\n    designationId:str\n    departmentId:str",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "UpdateEmployee",
+        "label": "UpdateEmployeeRequestModel",
         "kind": 6,
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
-        "peekOfCode": "class UpdateEmployee(BaseModel):\n    emailId :str\n    firstName:str  \nclass FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employeeRequestModels",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "peekOfCode": "class UpdateEmployeeRequestModel(BaseModel):\n    id:str\n    firstName:str\nclass FindEmployeeRequestModel(BaseModel):\n    id:str\nclass DeleteEmployeeRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "FindOneRequest",
+        "label": "FindEmployeeRequestModel",
         "kind": 6,
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
-        "peekOfCode": "class FindOneRequest(BaseModel):\n    emailId:str    \nclass DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employeeRequestModels",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "peekOfCode": "class FindEmployeeRequestModel(BaseModel):\n    id:str\nclass DeleteEmployeeRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "DeleteEmployee",
+        "label": "DeleteEmployeeRequestModel",
         "kind": 6,
-        "importPath": "models.employeeRequestModels",
-        "description": "models.employeeRequestModels",
-        "peekOfCode": "class DeleteEmployee(BaseModel):\n    employeeId:str",
-        "detail": "models.employeeRequestModels",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "peekOfCode": "class DeleteEmployeeRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
     {
-        "label": "addEmployee",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def addEmployee(request: AddEmployeeRequestModel):\n    employeeCollection = db.employees\n    data = {}\n    tempEmpObj = {\n        \"first_name\": request.firstName,\n        \"last_name\": request.lastName,\n        \"mobile_number\": request.mobileNumber,\n        \"email_id\": request.emailId,\n        \"is_present\": request.isPresent,\n    }",
-        "detail": "main",
+        "label": "DepartmentServices",
+        "kind": 6,
+        "importPath": "services.DepartmentServices",
+        "description": "services.DepartmentServices",
+        "peekOfCode": "class DepartmentServices:\n    def AddDepartment(self, request: AddDepartmentRequestModel):\n        depCollection = EmployeeMgmtDB.departments\n        depTempObj = {\"id\": generateRandomId(), \"departmentName\": request.name}\n        data = depCollection.insert_one(document=depTempObj)\n        if data.inserted_id != 0:\n            return {\"data\": \"SUCESS\"}\n        else:\n            return {\"data\": \"ERROR\"}\n    def AddDesgination(self, request: AddDepartmentRequestModel):",
+        "detail": "services.DepartmentServices",
         "documentation": {}
     },
     {
-        "label": "findEmployee",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def findEmployee(request: FindOneRequest):\n    employeeCollection = db.employees\n    data = employeeCollection.find_one({\"email_id\": request.emailId})\n    tempFindEmp = {\n        \"firstName\": data.get(\"first_name\"),\n        \"lastName\": data.get(\"last_name\"),\n        \"mobileNumber\": data.get(\"mobile_number\"),\n        \"emailId\": data.get(\"email_id\"),\n        \"employeeMentType\":data.get(\"designation\"),\n        \"isPresent\":data.get(\"is_present\"),",
-        "detail": "main",
+        "label": "EmployeeServices",
+        "kind": 6,
+        "importPath": "services.EmployeeServices",
+        "description": "services.EmployeeServices",
+        "peekOfCode": "class EmployeeServices:\n    def AddEmployee(self, request: AddEmployeeRequestModel):\n        addEmpTempObj = {\n            \"firstName\": request.firstName,\n            \"lastName\": request.lastName,\n            \"mobileNumber\": request.mobileNumber,\n            \"emailId\": request.emailId,\n            \"isPresent\": request.isPresent,\n            \"designationId\": request.designationId,\n            \"departmentId\": request.departmentId,",
+        "detail": "services.EmployeeServices",
         "documentation": {}
     },
     {
-        "label": "UpdateEmployee",
+        "label": "generateRandomId",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def UpdateEmployee(request:UpdateEmployee):\n    employeeCollection = db.employees\n    data =  employeeCollection.update_one({\"email_id\":request.emailId},{\"$set\":{\"first_name\":request.firstName}})\n    if data.matched_count != 0:\n        return{\"data\":\"Updated sucessfully\"}\n    else:\n        return{\"data\":\"Not Updated\"}\n@app.delete(\"/deleteemployee\")\ndef deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "deleteEmployee",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def deleteEmployee(request:DeleteEmployee):\n    employeeCollection = db.employees\n    data = employeeCollection.delete_one({\"_id\":request.employeeId})\n    if data.deleted_count != 0:\n        return {\"data\":\"Deleted\"}\n    else:\n        return {\"data\":\"Not Deleted\"}\n@app.get(\"/getallemployees\")\ndef getAllEmployees():\n    employeeCollection = db.employees",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "getAllEmployees",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def getAllEmployees():\n    employeeCollection = db.employees\n    allempl = employeeCollection.find()\n    temp = []\n    for empl in allempl:\n        tempGetObj = {\n            \"firstName\": empl.get(\"first_name\"),\n            \"lastName\":empl.get(\"last_name\"),\n            \"mobileNumber\":empl.get(\"mobile_number\"),\n            \"emailId\":empl.get(\"email_id\"),",
-        "detail": "main",
+        "importPath": "utils.AppUtils",
+        "description": "utils.AppUtils",
+        "peekOfCode": "def generateRandomId():\n    return str(uuid.uuid4())",
+        "detail": "utils.AppUtils",
         "documentation": {}
     },
     {
@@ -209,7 +650,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\n@app.post(\"/addemployee\")\ndef addEmployee(request: AddEmployeeRequestModel):\n    employeeCollection = db.employees\n    data = {}\n    tempEmpObj = {\n        \"first_name\": request.firstName,\n        \"last_name\": request.lastName,\n        \"mobile_number\": request.mobileNumber,\n        \"email_id\": request.emailId,",
+        "peekOfCode": "app = FastAPI()\napp.include_router(router=depRouter, prefix=\"/dep\")\napp.include_router(router=empRouter, prefix=\"/emp\")\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"main:app\", port=8000, host=\"127.0.0.1\")",
         "detail": "main",
         "documentation": {}
     }
