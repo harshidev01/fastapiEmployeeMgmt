@@ -15,22 +15,23 @@ class EmployeeServices:
             "isPresent": request.isPresent,
             "designationId": request.designationId,
             "departmentId": request.departmentId,
+            "employeeId": request.employeeId,
             "id":generateRandomId()
         }
         data = {}
 
         empCollection = EmployeeMgmtDB.employees
-        if request.designation == "HR":
-            addEmpTempObj["designation"] = EmployeeDesingationEnum.HR.value
+        if request.employeeMentType == "HR":
+            addEmpTempObj["employeeMentType"] = EmployeeDesingationEnum.HR.value
             data = empCollection.insert_one(document=addEmpTempObj)
-        elif request.designation == "ADMIN":
-            addEmpTempObj["designation"] = EmployeeDesingationEnum.ADMIN.value
+        elif request.employeeMentType == "ADMIN":
+            addEmpTempObj["employeeMentType"] = EmployeeDesingationEnum.ADMIN.value
             data = empCollection.insert_one(document=addEmpTempObj)
-        elif request.designation == "MANAGER":
-            addEmpTempObj["designation"] = EmployeeDesingationEnum.MANAGER.value
+        elif request.employeeMentType == "MANAGER":
+            addEmpTempObj["employeeMentType"] = EmployeeDesingationEnum.MANAGER.value
             data = empCollection.insert_one(document=addEmpTempObj)
         else:
-            addEmpTempObj["designation"] = EmployeeDesingationEnum.EMPLOYEE.value
+            addEmpTempObj["employeeMentType"] = EmployeeDesingationEnum.EMPLOYEE.value
             data = empCollection.insert_one(document=addEmpTempObj)
         if data.inserted_id != 0:
             return {"data": "SUCESS"}
@@ -48,7 +49,7 @@ class EmployeeServices:
                 "emailId": emp.get("emailId"),
                 "mobileNumber": emp.get("mobileNumber"),
                 "employeeId": emp.get("employeeId"),
-                "designation": emp.get("designation"),
+                "employeeMentType": emp.get("employeeMentType"),
                 "isPresent": emp.get("isPresent"),
                 "id": emp.get("id"),
                 "designationId": emp.get("designationId"),
@@ -76,7 +77,7 @@ class EmployeeServices:
                 "emailId": emp.get("emailId"),
                 "mobileNumber": emp.get("mobileNumber"),
                 "employeeId": emp.get("employeeId"),
-                "designation": emp.get("designation"),
+                "employeeMentType": emp.get("employeeMentType"),
                 "isPresent": emp.get("isPresent"),
                 "id": emp.get("id"),
                 "designationId": emp.get("designationId"),

@@ -16,6 +16,14 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -176,6 +184,14 @@
         "documentation": {}
     },
     {
+        "label": "FindEmployeeRequestModel",
+        "importPath": "models.requestmodels.EmployeeRequestModel",
+        "description": "models.requestmodels.EmployeeRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.EmployeeRequestModel",
+        "documentation": {}
+    },
+    {
         "label": "EmployeeServices",
         "importPath": "services.EmployeeServices",
         "description": "services.EmployeeServices",
@@ -184,11 +200,59 @@
         "documentation": {}
     },
     {
+        "label": "AddUserRequestModel",
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneuserRequestModel",
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "AddUserRequestModel",
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneuserRequestModel",
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "isExtraImport": true,
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "UserServices",
+        "importPath": "services.UserServices",
+        "description": "services.UserServices",
+        "isExtraImport": true,
+        "detail": "services.UserServices",
+        "documentation": {}
+    },
+    {
         "label": "MongoClient",
         "importPath": "pymongo",
         "description": "pymongo",
         "isExtraImport": true,
         "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -264,6 +328,22 @@
         "documentation": {}
     },
     {
+        "label": "EmployeeMgmtDB",
+        "importPath": "db.MongoDb",
+        "description": "db.MongoDb",
+        "isExtraImport": true,
+        "detail": "db.MongoDb",
+        "documentation": {}
+    },
+    {
+        "label": "generateRandomId",
+        "importPath": "utils.AppUtils",
+        "description": "utils.AppUtils",
+        "isExtraImport": true,
+        "detail": "utils.AppUtils",
+        "documentation": {}
+    },
+    {
         "label": "generateRandomId",
         "importPath": "utils.AppUtils",
         "description": "utils.AppUtils",
@@ -281,6 +361,14 @@
     },
     {
         "label": "EmployeeDesingationEnum",
+        "importPath": "models.dbmodels.EmployeeDBModel",
+        "description": "models.dbmodels.EmployeeDBModel",
+        "isExtraImport": true,
+        "detail": "models.dbmodels.EmployeeDBModel",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeDbModel",
         "importPath": "models.dbmodels.EmployeeDBModel",
         "description": "models.dbmodels.EmployeeDBModel",
         "isExtraImport": true,
@@ -310,6 +398,22 @@
         "description": "controllers.EmployeeController",
         "isExtraImport": true,
         "detail": "controllers.EmployeeController",
+        "documentation": {}
+    },
+    {
+        "label": "userRouter",
+        "importPath": "controllers.UserController",
+        "description": "controllers.UserController",
+        "isExtraImport": true,
+        "detail": "controllers.UserController",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
         "documentation": {}
     },
     {
@@ -466,6 +570,42 @@
         "documentation": {}
     },
     {
+        "label": "AddUser",
+        "kind": 2,
+        "importPath": "controllers.UserController",
+        "description": "controllers.UserController",
+        "peekOfCode": "def AddUser(request:AddUserRequestModel):\n    response = userServices.AddUser(request)\n    return response\n@userRouter.post(\"/getuser\")\ndef FindOneUser(request:FindOneuserRequestModel):\n    response = userServices.FindOneUser(request)\n    return response",
+        "detail": "controllers.UserController",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneUser",
+        "kind": 2,
+        "importPath": "controllers.UserController",
+        "description": "controllers.UserController",
+        "peekOfCode": "def FindOneUser(request:FindOneuserRequestModel):\n    response = userServices.FindOneUser(request)\n    return response",
+        "detail": "controllers.UserController",
+        "documentation": {}
+    },
+    {
+        "label": "userRouter",
+        "kind": 5,
+        "importPath": "controllers.UserController",
+        "description": "controllers.UserController",
+        "peekOfCode": "userRouter = APIRouter()\nuserServices = UserServices()\n@userRouter.post(\"/createuser\")\ndef AddUser(request:AddUserRequestModel):\n    response = userServices.AddUser(request)\n    return response\n@userRouter.post(\"/getuser\")\ndef FindOneUser(request:FindOneuserRequestModel):\n    response = userServices.FindOneUser(request)\n    return response",
+        "detail": "controllers.UserController",
+        "documentation": {}
+    },
+    {
+        "label": "userServices",
+        "kind": 5,
+        "importPath": "controllers.UserController",
+        "description": "controllers.UserController",
+        "peekOfCode": "userServices = UserServices()\n@userRouter.post(\"/createuser\")\ndef AddUser(request:AddUserRequestModel):\n    response = userServices.AddUser(request)\n    return response\n@userRouter.post(\"/getuser\")\ndef FindOneUser(request:FindOneuserRequestModel):\n    response = userServices.FindOneUser(request)\n    return response",
+        "detail": "controllers.UserController",
+        "documentation": {}
+    },
+    {
         "label": "cluster",
         "kind": 5,
         "importPath": "db.MongoDb",
@@ -515,7 +655,7 @@
         "kind": 6,
         "importPath": "models.dbmodels.EmployeeDBModel",
         "description": "models.dbmodels.EmployeeDBModel",
-        "peekOfCode": "class EmployeeDbModel(BaseModel):\n    firstName: str\n    lastName: str\n    emailId: str\n    mobileNumber: str\n    employeeId: str\n    designation: EmployeeDesingationEnum\n    isPresent: bool\n    id: str\n    designationId: str",
+        "peekOfCode": "class EmployeeDbModel(BaseModel):\n    firstName: str\n    lastName: str\n    emailId: str\n    mobileNumber: str\n    employeeId: str\n    employeeMentType: EmployeeDesingationEnum\n    isPresent: bool\n    id: str\n    designationId: str",
         "detail": "models.dbmodels.EmployeeDBModel",
         "documentation": {}
     },
@@ -524,7 +664,7 @@
         "kind": 6,
         "importPath": "models.dbmodels.UserDbModel",
         "description": "models.dbmodels.UserDbModel",
-        "peekOfCode": "class UserDBModel(BaseModel):\n    emailId:str\n    password:str\n    otp:int\n    loggedIn:bool\n    employeeId:str",
+        "peekOfCode": "class UserDBModel(BaseModel):\n    employeeId:str\n    password:str\n    loggedIn:bool",
         "detail": "models.dbmodels.UserDbModel",
         "documentation": {}
     },
@@ -587,7 +727,7 @@
         "kind": 6,
         "importPath": "models.requestmodels.EmployeeRequestModel",
         "description": "models.requestmodels.EmployeeRequestModel",
-        "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    emailId:str\n    mobileNumber:str\n    employeeId:str\n    designation: str\n    isPresent:bool = False\n    designationId:str\n    departmentId:str",
+        "peekOfCode": "class AddEmployeeRequestModel(BaseModel):\n    firstName:str\n    lastName:str\n    emailId:str\n    mobileNumber:str\n    employeeId:str\n    employeeMentType: str\n    isPresent:bool = False\n    designationId:str\n    departmentId:str",
         "detail": "models.requestmodels.EmployeeRequestModel",
         "documentation": {}
     },
@@ -619,6 +759,24 @@
         "documentation": {}
     },
     {
+        "label": "AddUserRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "peekOfCode": "class AddUserRequestModel(BaseModel):\n    employeeId:str\n    password:str\n    reenterPassword:str\n    loggedIn:bool = False\nclass FindOneuserRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
+        "label": "FindOneuserRequestModel",
+        "kind": 6,
+        "importPath": "models.requestmodels.UserRequestModel",
+        "description": "models.requestmodels.UserRequestModel",
+        "peekOfCode": "class FindOneuserRequestModel(BaseModel):\n    id:str",
+        "detail": "models.requestmodels.UserRequestModel",
+        "documentation": {}
+    },
+    {
         "label": "DepartmentServices",
         "kind": 6,
         "importPath": "services.DepartmentServices",
@@ -637,6 +795,15 @@
         "documentation": {}
     },
     {
+        "label": "UserServices",
+        "kind": 6,
+        "importPath": "services.UserServices",
+        "description": "services.UserServices",
+        "peekOfCode": "class UserServices:\n    def AddUser(self, request: AddUserRequestModel):\n      if request.password != request.reenterPassword:\n        return {\"data\":\"PASSWORD DO NOT MATCHED\"}\n      empCollection = EmployeeMgmtDB.employees\n      empData = empCollection.find_one({\"employeeId\": request.employeeId})\n      if empData == None:\n            return {\"data\": \"NO EMPLOYEE FOUND\"}\n      if empData.get(\"employeeMentType\") != \"EMPLOYEE\":\n              userTempObj = {",
+        "detail": "services.UserServices",
+        "documentation": {}
+    },
+    {
         "label": "generateRandomId",
         "kind": 2,
         "importPath": "utils.AppUtils",
@@ -650,7 +817,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(router=depRouter, prefix=\"/dep\")\napp.include_router(router=empRouter, prefix=\"/emp\")\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"main:app\", port=8000, host=\"127.0.0.1\")",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  \n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(router=depRouter, prefix=\"/dep\")\napp.include_router(router=empRouter, prefix=\"/emp\")",
         "detail": "main",
         "documentation": {}
     }

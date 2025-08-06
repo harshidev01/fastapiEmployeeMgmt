@@ -6,7 +6,7 @@ class AddEmployeeRequestModel(BaseModel):
     emailId:str
     mobileNumber:str
     employeeId:str
-    designation: str
+    employeeMentType: str
     isPresent:bool = False
     designationId:str
     departmentId:str

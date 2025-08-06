@@ -15,7 +15,7 @@ class EmployeeDbModel(BaseModel):
     emailId: str
     mobileNumber: str
     employeeId: str
-    designation: EmployeeDesingationEnum
+    employeeMentType: EmployeeDesingationEnum
     isPresent: bool
     id: str
     designationId: str
